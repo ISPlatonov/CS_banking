@@ -27,7 +27,6 @@ namespace CS_banking
             string password = textBox_password.Text;
             if (sign_in(username, password))
             {
-                MessageBox.Show("Login Successful");
                 Main_form main_form = new Main_form(connection, username, password);
                 this.Hide();
                 main_form.Show();

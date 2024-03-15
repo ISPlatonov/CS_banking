@@ -30,6 +30,7 @@
         {
             label1 = new Label();
             label2 = new Label();
+            send_money = new Button();
             SuspendLayout();
             // 
             // label1
@@ -50,11 +51,21 @@
             label2.TabIndex = 1;
             label2.Text = "label2";
             // 
+            // send_money
+            // 
+            send_money.Location = new Point(510, 28);
+            send_money.Name = "send_money";
+            send_money.Size = new Size(219, 46);
+            send_money.TabIndex = 2;
+            send_money.Text = "send_money";
+            send_money.UseVisualStyleBackColor = true;
+            // 
             // Main_form
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(send_money);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Main_form";
@@ -67,5 +78,6 @@
 
         private Label label1;
         private Label label2;
+        private Button send_money;
     }
 }

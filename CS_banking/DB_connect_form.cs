@@ -41,7 +41,6 @@ namespace CS_banking
             try
             {
                 connection.Open();
-                MessageBox.Show("Connection Successful");
                 return true;
             }
             catch (Exception ex)

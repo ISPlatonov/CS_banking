@@ -4,6 +4,9 @@
     <Compile Update="DB_connect_form.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Send_money_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Sign_in_form.cs">
       <SubType>Form</SubType>
     </Compile>
